@@ -51,6 +51,9 @@
 		9E9BF9CC1DCD11BA00548161 /* PMJSON_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9BF9CB1DCD11BA00548161 /* PMJSON_Tests.swift */; };
 		9E9BF9CE1DCD126D00548161 /* Program+PMJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9BF9CD1DCD126D00548161 /* Program+PMJSON.swift */; };
 		9E9BF9D01DCD307200548161 /* Recording+PMJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9BF9CF1DCD307200548161 /* Recording+PMJSON.swift */; };
+		A81D1EF71FFF8AE5006C06AE /* Recording+JSONDecodeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81D1EF61FFF8AE5006C06AE /* Recording+JSONDecodeKit.swift */; };
+		A81D1EF91FFF8B04006C06AE /* Program+JSONDecodeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81D1EF81FFF8B04006C06AE /* Program+JSONDecodeKit.swift */; };
+		A81D1EFB1FFF8B59006C06AE /* JSONDecodeKit_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81D1EFA1FFF8B59006C06AE /* JSONDecodeKit_Tests.swift */; };
 		AA2B38CB1DC0B4AE008CECCD /* JSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2B38CA1DC0B4AE008CECCD /* JSON.framework */; };
 		AA2B38CC1DC0B4AE008CECCD /* JSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA2B38CA1DC0B4AE008CECCD /* JSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AA2B38D01DC0B4D2008CECCD /* Program+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B38CD1DC0B4CC008CECCD /* Program+JSON.swift */; };
@@ -167,6 +170,9 @@
 		9E9BF9CB1DCD11BA00548161 /* PMJSON_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMJSON_Tests.swift; sourceTree = "<group>"; };
 		9E9BF9CD1DCD126D00548161 /* Program+PMJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Program+PMJSON.swift"; sourceTree = "<group>"; };
 		9E9BF9CF1DCD307200548161 /* Recording+PMJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Recording+PMJSON.swift"; sourceTree = "<group>"; };
+		A81D1EF61FFF8AE5006C06AE /* Recording+JSONDecodeKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recording+JSONDecodeKit.swift"; sourceTree = "<group>"; };
+		A81D1EF81FFF8B04006C06AE /* Program+JSONDecodeKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Program+JSONDecodeKit.swift"; sourceTree = "<group>"; };
+		A81D1EFA1FFF8B59006C06AE /* JSONDecodeKit_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecodeKit_Tests.swift; sourceTree = "<group>"; };
 		AA2B38CA1DC0B4AE008CECCD /* JSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA2B38CD1DC0B4CC008CECCD /* Program+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = "Program+JSON.swift"; sourceTree = "<group>"; tabWidth = 4; };
 		AA2B38D11DC0B57F008CECCD /* Recording+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Recording+JSON.swift"; sourceTree = "<group>"; };
@@ -308,6 +314,7 @@
 			isa = PBXGroup;
 			children = (
 				5B69A1DD1DBEC9A400B12579 /* Decodable_Tests.swift */,
+				A81D1EFA1FFF8B59006C06AE /* JSONDecodeKit_Tests.swift */,
 				CC3023471CF9692700B51746 /* Mapper_Tests.swift */,
 				CC3023481CF9692700B51746 /* Marshal_Tests.swift */,
 				7C3FCD341DC1B61600C82DEE /* Gloss_Tests.swift */,
@@ -343,6 +350,7 @@
 				20A0B9561DC2584D001D8A14 /* Recording+Genome.swift */,
 				9E9BF9CF1DCD307200548161 /* Recording+PMJSON.swift */,
 				2F28689F1DE8843C002A6F68 /* Recording+Freddy.swift */,
+				A81D1EF61FFF8AE5006C06AE /* Recording+JSONDecodeKit.swift */,
 				71337C921DBEBFB400DCA374 /* Program+Marshal.swift */,
 				71337C941DBEBFC300DCA374 /* Program+Mapper.swift */,
 				71337C961DBEBFD000DCA374 /* Program+Unbox.swift */,
@@ -354,6 +362,7 @@
 				20A0B9581DC25B60001D8A14 /* Program+Genome.swift */,
 				9E9BF9CD1DCD126D00548161 /* Program+PMJSON.swift */,
 				2F28689D1DE7FB58002A6F68 /* Program+Freddy.swift */,
+				A81D1EF81FFF8B04006C06AE /* Program+JSONDecodeKit.swift */,
 			);
 			path = ModelObjects;
 			sourceTree = "<group>";
@@ -439,6 +448,7 @@
 				TargetAttributes = {
 					CC5A19FD1CEADE59007238F3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 37MR9UKGT4;
 						LastSwiftMigration = 0800;
 					};
 					CC5A1A111CEADE59007238F3 = {
@@ -522,6 +532,7 @@
 				2F28689C1DE7F66F002A6F68 /* Freddy_Tests.swift in Sources */,
 				5B69A1DE1DBEC9A400B12579 /* Decodable_Tests.swift in Sources */,
 				CCD5105B1CFFFF7000E9C0D1 /* SwiftyJSON_Tests.swift in Sources */,
+				A81D1EFB1FFF8B59006C06AE /* JSONDecodeKit_Tests.swift in Sources */,
 				7C3FCD351DC1B61600C82DEE /* Gloss_Tests.swift in Sources */,
 				9E9BF9CC1DCD11BA00548161 /* PMJSON_Tests.swift in Sources */,
 				681299181DC00DB1009960BE /* ObjectMapper_Test.swift in Sources */,
@@ -542,9 +553,11 @@
 				9E9BF9D01DCD307200548161 /* Recording+PMJSON.swift in Sources */,
 				71337C991DBEBFDC00DCA374 /* Program+SwiftyJSON.swift in Sources */,
 				2F28689E1DE7FB58002A6F68 /* Program+Freddy.swift in Sources */,
+				A81D1EF71FFF8AE5006C06AE /* Recording+JSONDecodeKit.swift in Sources */,
 				71337C931DBEBFB400DCA374 /* Program+Marshal.swift in Sources */,
 				CC9786C01CEBAC6C005A5DEA /* NSDate+JSON.swift in Sources */,
 				9E9BF9CE1DCD126D00548161 /* Program+PMJSON.swift in Sources */,
+				A81D1EF91FFF8B04006C06AE /* Program+JSONDecodeKit.swift in Sources */,
 				5B69A1DA1DBEC84200B12579 /* Recording+Decodable.swift in Sources */,
 				AA2B38D01DC0B4D2008CECCD /* Program+JSON.swift in Sources */,
 				7C3FCD311DC1B2A100C82DEE /* Program+Gloss.swift in Sources */,
@@ -688,7 +701,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				DEVELOPMENT_TEAM = 37MR9UKGT4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = JSONShootout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.swift-bit.JSONShootout";
@@ -702,7 +719,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				DEVELOPMENT_TEAM = 37MR9UKGT4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = JSONShootout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.swift-bit.JSONShootout";
@@ -745,7 +766,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ModelObjects/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -770,7 +794,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ModelObjects/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

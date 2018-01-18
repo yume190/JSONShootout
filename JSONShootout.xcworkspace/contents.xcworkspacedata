@@ -37,4 +37,7 @@
    <FileRef
       location = "group:Carthage/Checkouts/Freddy/Freddy.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/JSONDecodeKit/JSONDecodeKit.xcodeproj">
+   </FileRef>
 </Workspace>

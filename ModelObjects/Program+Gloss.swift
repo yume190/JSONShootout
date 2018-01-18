@@ -5,7 +5,7 @@
 
 import Gloss
 
-extension Program: Decodable {
+extension Program: JSONDecodable {
 
     public init?(json: JSON) {
 

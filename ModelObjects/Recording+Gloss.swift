@@ -5,7 +5,7 @@
 
 import Gloss
 
-extension Recording: Decodable {
+extension Recording: JSONDecodable {
 
   public init?(json: JSON) {
     self.startTsStr = "StartTs" <~~ json ?? ""
